@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "dosemate",
+        "dosetrackr",
+        "dosetrackrauth",
+        "etags",
+        "iconify"
+    ],
+    "editor.tabSize": 2,
+    "prettier.endOfLine": "crlf"
+}

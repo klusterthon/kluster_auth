@@ -1,0 +1,21 @@
+@unocss;
+
+:root {
+    --background: #F7F8F8;
+}
+
+.bg-background {
+    background-color: var(--background);
+}
+
+input:focus {
+    outline: none;
+}
+
+.input:focus-within {
+    @apply border-emerald-700 ring-3 ring-offset-1 ring-emerald-500;
+}
+
+.input:focus-within>svg {
+    @apply text-emerald-700;
+}

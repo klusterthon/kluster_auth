@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "dosetrackr"
+  },
+  "targets": {
+    "dosetrackr": {
+      "hosting": {
+        "auth": [
+          "dosetrackrauth"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

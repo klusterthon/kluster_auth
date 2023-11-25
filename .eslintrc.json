@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@unocss",
+    "next/core-web-vitals"
+  ]
+}
