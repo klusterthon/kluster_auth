@@ -1,6 +1,5 @@
 import { Work_Sans } from "next/font/google";
 
-import "@unocss/reset/tailwind.css";
 import "./globals.css";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
