@@ -25,7 +25,9 @@ export default function DefaultSelectInput<T>({ label, selected, options, getTex
               className="item-center flex flex-1 p-2"
               {...props} >
               <span className="block flex-1 truncate capitalize">{getDisplayName(selected)}</span>
-              <button className="pointer-events-none">
+              <button 
+                type="button"
+                className="pointer-events-none">
                 <Icon
                   icon="mdi:chevron-down"
                   className="text-xl text-stone-700" />

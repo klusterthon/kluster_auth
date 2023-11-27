@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-
 import Image from "next/image";
+
 import {Icon} from "@iconify/react";
 
 import LayoutHeader from "@/components/LayoutHeader";
@@ -21,7 +21,7 @@ export default function SignupPage() {
 							<h1 className="text-2xl font-extrabold">How would you like to use DoseMate?</h1>
 							<p className="text-stone-500">Please select an option below</p>
 						</header>
-						<div className="grid grid-cols-3 place-items-center rounded-full bg-emerald-100 p-2">
+						<div className="grid grid-cols-3 place-items-center rounded-full bg-emerald-50 p-2">
 							<div className="flex-1 rounded-full bg-white px-4 py-2 font-semibold text-emerald-900 shadow">Individual</div>
 							<div className="flex-1">Practitioner</div>
 							<div className="flex-1">CareGiver</div>

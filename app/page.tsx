@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 
+import { object, string } from "yup";
 import { Formik, Form } from "formik";
 
 import LayoutHeader from "@/components/LayoutHeader";
@@ -15,9 +16,13 @@ export default function LoginPage() {
         <SignupAction />
       </LayoutHeader>
       <section className="flex flex-1 flex-col items-center justify-center">
-        <section className="flex flex-col space-y-4">
+        <section className="flex flex-col space-y-4 px-4">
           <h1 className="text-2xl font-bold">Welcome Back!</h1>
           <Formik
+            validationSchema={object().shape({
+              email: string().email().required(),
+              password: string().required(),
+            })}
             initialValues={{
               email: "",
               password: "",

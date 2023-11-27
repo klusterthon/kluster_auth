@@ -16,8 +16,8 @@ export default function ForgottenPassword() {
         <SignupAction />
       </LayoutHeader>
       <section className="flex flex-1 flex-col items-center justify-center">
-        <section className="flex flex-col space-y-6">
-          <h1 className="text-2xl font-bold">Welcome Back!</h1>
+        <section className="flex flex-col px-4 space-y-6">
+          <h1 className="text-2xl font-bold">Forgotten your password?</h1>
           <Formik
             validationSchema={object().shape({
               email: string().email().required(),
