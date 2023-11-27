@@ -5,6 +5,15 @@
     --background: #F7F8F8;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body {
+    scrollbar-width: 0;
+}
+
 .bg-background {
     background-color: var(--background);
 }
@@ -19,4 +28,18 @@ input:focus {
 
 .input:focus-within>svg {
     @apply text-emerald-700;
+}
+
+@keyframes width {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.capitalize-first::first-letter {
+    text-transform: uppercase;
 }
